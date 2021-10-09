@@ -213,6 +213,10 @@ button {
     width: 100%;
     padding: 0 20px;
   }
+
+  .add-info {
+    display: none;
+  }
 }
 @supports (-webkit-appearance:none){
 

@@ -920,8 +920,17 @@ main {
     padding: 0 20px;
   }
 
+  .add-info {
+    display: none;
+  }
+
   main {
     background: white;
+  }
+
+  .compare {
+    -webkit-box-shadow: none;
+            box-shadow: none;
   }
 
   .compare__bonuses {
@@ -931,12 +940,12 @@ main {
     line-height: 12px;
     letter-spacing: 0em;
     text-align: left;
-    padding: 4px 10px;
+    padding: 4px 8px;
     gap: 5px;
   }
 
   .compare__type-choice {
-    width: 280px;
+    width: 278px;
   }
 
   .compare__products-main {
@@ -992,7 +1001,7 @@ main {
     letter-spacing: 0em;
     text-align: left;
     padding-left: 0;
-    width: 130px;
+    width: 125px;
   }
 
   .compare__for-category {
@@ -1008,7 +1017,7 @@ main {
   }
 
   .compare__product {
-    width: 130px;
+    width: 125px;
   }
 
   .compare__product-main-close {
@@ -1082,7 +1091,7 @@ main {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    gap: 34px;
+    gap: 20px;
   }
 
   .compare__main-info-blocks {
