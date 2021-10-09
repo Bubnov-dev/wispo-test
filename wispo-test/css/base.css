@@ -197,13 +197,13 @@ button {
     max-width: 650px;
   }
 
-  .add-info {
+  .add-info__text {
     font-size: 12px;
     width: 220px;
     left: -95px;
   }
 
-  .add-info::after {
+  .add-info__text::after {
     left: 90px;
   }
 }
